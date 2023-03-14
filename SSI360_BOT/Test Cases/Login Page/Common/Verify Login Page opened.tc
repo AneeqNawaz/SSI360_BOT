@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Verify Login Page opened</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>2a26f7a3-64a0-4bb4-8e74-021e84b7451a</testCaseGuid>
-</TestCaseEntity>
