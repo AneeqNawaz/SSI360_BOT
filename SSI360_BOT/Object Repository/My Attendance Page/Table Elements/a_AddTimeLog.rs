@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_AddTimeLog</name>
+   <tag></tag>
+   <elementGuidId>61edcc11-d629-4d4b-b9d3-4c54633e6fa1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;navigateForLog(event, 'Mar-13-2023')&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a879ee6a-5c46-477e-85e5-079ca937b3d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>4944142a-2ef3-4e0c-aa9f-dd0dcdbab0ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>link</value>
+      <webElementGuid>44f75e92-9a5b-4537-97ff-08c2a29650e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>navigateForLog(event, 'Mar-13-2023')</value>
+      <webElementGuid>b9f217ea-8fb5-4326-a884-c40d664c0650</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Time Log</value>
+      <webElementGuid>d97b790e-5f07-4e9d-a513-f32d4e6023f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MyTimeLogLVGrid&quot;)/tbody[@class=&quot;ui-widget-content ui-iggrid-tablebody ui-ig-record ui-iggrid-record&quot;]/tr[@class=&quot;ui-iggrid-activerow ui-state-focus initially-focused&quot;]/td[@class=&quot;ui-iggrid-selectedcell ui-state-active ui-state-hover&quot;]/a[@class=&quot;link&quot;]</value>
+      <webElementGuid>63321385-a76e-4e17-adfa-4cdede51e2cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;navigateForLog(event, 'Mar-13-2023')&quot;]</value>
+      <webElementGuid>a94913a9-f09b-4331-a59a-5cf7f65d0ce1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='MyTimeLogLVGrid']/tbody/tr/td[9]/a</value>
+      <webElementGuid>5aa4ed61-f48b-430d-807e-19f9e1378b9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Add Time Log')]</value>
+      <webElementGuid>4e6372ff-ae27-4f73-9ff9-cedc9d73e0da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Missing Data'])[1]/following::a[1]</value>
+      <webElementGuid>fa31bb5e-b9a4-4bec-82cf-5f74fd41a951</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Missing Data'])[2]/preceding::a[3]</value>
+      <webElementGuid>c96fedc4-a487-4b02-af43-2bf3e673202d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADVANCED FILTER'])[1]/preceding::a[3]</value>
+      <webElementGuid>18dd71e5-0260-4273-b1f8-a341c694504e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add Time Log']/parent::*</value>
+      <webElementGuid>5d3e25d1-2c21-4114-a230-705759ba678e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[30]</value>
+      <webElementGuid>b9cb41c5-5450-45b8-8069-36368556a2ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[9]/a</value>
+      <webElementGuid>c396e845-e5c6-49c1-81fe-bc12960751bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Add Time Log' or . = 'Add Time Log')]</value>
+      <webElementGuid>fa528b42-05f9-4ca5-9726-65e0731f2898</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
