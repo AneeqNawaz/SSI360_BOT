@@ -30,7 +30,6 @@ String password = 'Object Repository/Login Page/input_password'
 
 WebUI.sendKeys(findTestObject(userName), GlobalVariable.userName)
 WebUI.setEncryptedText(findTestObject(password), GlobalVariable.password)
-
 WebUI.callTestCase(findTestCase('Test Cases/Login Page/Lookups/Click on Login Button'), null)
 
 //****POST CONDITION****
