@@ -17,19 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//PRECONDITION
+//****PRECONDITION****
 // 1.Navigate to Attendance Page
-WebUI.callTestCase(findTestCase('Test Cases/Attendance/Common/Navigate to Attendance Page'), null, FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Test Cases/Attendance/Common/Navigate to Attendance Page'), null, FailureHandling.STOP_ON_FAILURE)
 // 2.Verify Attendance page Loaded
 WebUI.callTestCase(findTestCase('Test Cases/Attendance/Common/Verify Attendance Page Loaded'), null, FailureHandling.STOP_ON_FAILURE)
 
-//ACTUAL TEST CASE
-//Input Valid Data and Click on Login
+//****ACTUAL TEST CASE****
+//Input Valid Dates,Select MissingData from Log Type and Click on Login
 String startDate = 'Object Repository/My Attendance Page/Search Bar/input_StartDate'
 String endDate = 'Object Repository/My Attendance Page/Search Bar/input_EndDate'
 
+//1. Open search bar and enter startDate and endDate
 WebUI.callTestCase(findTestCase('Test Cases/Attendance/Lookups/Click on Search Dropdown Icon'), null)
-WebUI.sendKeys(findTestObject(startDate), '03-10-2023')
+WebUI.sendKeys(findTestObject(startDate), GlobalVariable.Date)
 WebUI.click(findTestObject(endDate))
-WebUI.sendKeys(findTestObject(endDate), '03-10-2023')
+WebUI.sendKeys(findTestObject(endDate), GlobalVariable.Date)
+
+//Select MissingData checkbox from Log Type field
+WebUI.click(findTestObject('Object Repository/My Attendance Page/Search Bar/div_LogTypeDropdownIcon'))
+WebUI.click(findTestObject('Object Repository/My Attendance Page/Search Bar/div_MissingDataCheckbox'))
+
+//Click on Search Button
 WebUI.callTestCase(findTestCase('Test Cases/Attendance/Lookups/Click on Search Button'), null)
+
+
+//****POST CONDITION****
+WebUI.callTestCase(findTestCase('Test Cases/Attendance/Functional/Verify MissingData Appears'), null)
+//WebUI.callTestCase(findTestCase('Test Cases/Attendance/Functional/Add Time Log'), null)

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_AddTimeLog</name>
+   <name>inputlogTimeIn</name>
    <tag></tag>
-   <elementGuidId>61edcc11-d629-4d4b-b9d3-4c54633e6fa1</elementGuidId>
+   <elementGuidId>92717568-ebea-47ed-9d16-5bf763954194</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.link</value>
+         <value>#logTimeIn1EditingInput</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td/a[text()=&quot;Add Time Log&quot;][1]</value>
+         <value>//*[@id=&quot;logTimeIn1&quot;]//input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>0c3d06e5-08b5-440c-95d7-683da624f4fb</webElementGuid>
+      <value>input</value>
+      <webElementGuid>a7dfd62e-1169-43f8-a61f-c4da07482d25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>type</name>
       <type>Main</type>
-      <value>#</value>
-      <webElementGuid>159e95f6-bf6e-4abd-9f89-089f5fb4173f</webElementGuid>
+      <value>text</value>
+      <webElementGuid>573108a0-94e4-4cd5-b4f0-652f4a901769</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>link</value>
-      <webElementGuid>d15a682e-8e68-4280-9f56-93ee84e1e761</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>navigateForLog(event, 'Mar-13-2023')</value>
-      <webElementGuid>ad8e511f-2468-49a7-a340-cbe08858ac29</webElementGuid>
+      <value>ui-igedit-input</value>
+      <webElementGuid>377366e3-1506-4f8a-9061-2612ef515e4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Add Time Log</value>
-      <webElementGuid>6d39607e-55f9-4b10-9bca-874519488309</webElementGuid>
+      <value>logTimeIn1EditingInput</value>
+      <webElementGuid>3c38e110-8cb6-4460-8e60-a934fea748de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>textbox</value>
+      <webElementGuid>54538da0-2647-4de1-bd1e-896e474874eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Date Editor</value>
+      <webElementGuid>644694fa-8c04-40c6-90c9-22379b64538c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;MyTimeLogLVGrid&quot;)/tbody[@class=&quot;ui-widget-content ui-iggrid-tablebody ui-ig-record ui-iggrid-record&quot;]/tr[@class=&quot;ui-iggrid-activerow ui-state-focus initially-focused&quot;]/td[@class=&quot;ui-iggrid-selectedcell ui-state-active ui-state-hover&quot;]/a[@class=&quot;link&quot;]</value>
-      <webElementGuid>8fd99cd2-b772-421b-8b0a-a0d4a07f6caa</webElementGuid>
+      <value>id(&quot;logTimeIn1EditingInput&quot;)</value>
+      <webElementGuid>792d05c4-33de-4996-9d71-6933f2105779</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>//td/a[text()=&quot;Add Time Log&quot;][1]</value>
-      <webElementGuid>1fd13a56-d8f3-4966-94ff-601b6edd7882</webElementGuid>
+      <value>//*[@id=&quot;logTimeIn1&quot;]//input[1]</value>
+      <webElementGuid>9d9e7e3c-d3c7-4c76-98d0-64c830b28f3a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

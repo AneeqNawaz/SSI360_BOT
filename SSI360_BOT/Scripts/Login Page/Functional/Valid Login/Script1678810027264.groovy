@@ -34,7 +34,9 @@ WebUI.callTestCase(findTestCase('Test Cases/Login Page/Lookups/Click on Login Bu
 
 //****POST CONDITION****
 // 1. Verify user logged-in successful
-WebUI.callTestCase(findTestCase('Test Cases/Login Page/Common/Verify User Logged-in'), null, FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Test Cases/Login Page/Common/Verify User Logged-in'), null, FailureHandling.STOP_ON_FAILURE)
 // 2. Navigate to Attendance Testcase
-WebUI.callTestCase(findTestCase('Test Cases/Attendance/Functional/Search MissingData Date'), null, FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('Test Cases/Attendance/Functional/Search MissingData Date'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Attendance/Common/Navigate to Attendance Page'), null, FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Test Cases/Attendance/Functional/Add Time Log'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Attendance/Functional/Read Data from sheet'), null, FailureHandling.STOP_ON_FAILURE)

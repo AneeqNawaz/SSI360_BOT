@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BlankSpace</name>
+   <tag></tag>
+   <elementGuidId>25cb774e-bd6c-49f1-94ba-5d25ba6677c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='TimeLogTileArea']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div[@class='TimeLogTileArea']</value>
+      <webElementGuid>e38e1bb3-60e9-4cbd-ba98-d99ea1b2ec65</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

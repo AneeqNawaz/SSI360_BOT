@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Add Time Heading</name>
+   <tag></tag>
+   <elementGuidId>5ffa2e1e-9a37-419f-895d-735a920dfcdc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-content']/div/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>e6497713-3870-452a-b406-f314b802cab1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Time Log</value>
+      <webElementGuid>4f055cae-de12-4285-be12-ceb51976a9c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-content&quot;)/div[@class=&quot;ssi-Main home col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;header&quot;]/h1[1]</value>
+      <webElementGuid>200f936d-69e0-4007-84a6-01b72d4f1856</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-content']/div/div/div/h1</value>
+      <webElementGuid>f9f60389-8571-4b86-9928-4f8a1a17c9aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attendance'])[2]/following::h1[1]</value>
+      <webElementGuid>2a54a3ed-2ea6-435a-9f11-4d6e6a10fec5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[1]/following::h1[1]</value>
+      <webElementGuid>24c1683e-64b0-46f7-a880-168654c33a09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time Log Approving Person:'])[1]/preceding::h1[1]</value>
+      <webElementGuid>a64b8673-2cc9-406b-a13f-1f8843470e77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mannan Javaid'])[1]/preceding::h1[1]</value>
+      <webElementGuid>ef615b43-6ac3-4401-9be8-b69c738be429</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>73038168-a478-4923-9a74-c900b10f6c68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Add Time Log' or . = 'Add Time Log')]</value>
+      <webElementGuid>c3497844-98ac-4494-920d-d3e21070fd34</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
